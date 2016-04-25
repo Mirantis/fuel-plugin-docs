@@ -25,7 +25,7 @@ To use these doc templates, follow these steps:
 
 1. Clone the repo:
 
-   `git clone https://github.com/irinapovolotskaya/fuel-plugin-docs.git`
+   `git clone git@github.com:Mirantis/fuel-plugin-docs.git`
   
 2. Populate the placeholders of the conf.py files (for Plugin Guide, Test Plan and Report) with plugin-specific information (e.g. document name, plugin release).
 
