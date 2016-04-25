@@ -60,6 +60,23 @@ meets the acceptance criteria.
   * known issues that might affect the plugin's operability (e.g. it's impossible to use non-ASCII characters)
 * The **Release Notes** section should describe how this plugin version differs from the previous one.
 * The **Installing the plugin** section provides commands and estimated output.
+* The **Configuring the plugin** section provides the following information:
+  * It's clarified which MOS environment configuration should be used (how many controller, computes, which options/services should be enabled). All links to the official Mirantis OpenStack documentation are present. It's also okay to provide screenshots.
+  * It's clarified how to configure MOS environment properly for the plugin usage (e.g. how to configure interfaces for different logical networks Fuel uses). It's also okay to provide screenshots.
+  * If the plugin requires specific role/naming convention, then this is also outlined.
+  * UI part of the plugin should have detailed description and instructions on where to get specific params. This should be done for every field and example values should be provided.
+  * If the plugin supports several modes of usage, then there should be a flow for each mode (e.g. each mode should be presented as the step-by-step instruction with screenshots with all required UI elements listed in the correct order):
+e.g. Select plugin checkbox, click a radio button, fill in the text fields
+ * Network verification check is specified as the obligatory step prior to deployment. If it’s expected to fail, this fact should be explicitly stated and a reason should be provided.
+* The **User Guide** should contain:
+  * baseline commands (CLI reference) with the estimated output (e.g. create volumes, list volumes etc)
+  * links to external documentation (e.g. if all baseline issues are covered in open source/proprietary  documentation) 
+* The **Verification** section should explain how to verify that the plugin works as expected (CLI, expected output).
+* The **Troubleshooting** section should deliver specific guidaince on:
+  * how to make sure that all services are running
+  * how to check network connectivity (if needed)
+  * logs (where to find those, what to pay attention to)
+ 
 
 
 
