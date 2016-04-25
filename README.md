@@ -1,8 +1,18 @@
+# Table of Contents
+1. [Overview](#id-section1)
+   * [How to use](#id-section2)
+   * [How to build documentation] (#id-section3)
+2. [Check yourself](#id-section4)
+   * [Plugin Guide checklist](#id-section5)
+
+<div id='id-section1'/>
+
 # Overview
 
 If you are developing your own plugin for Fuel, you will also need to prepare the documentation set,
 which includes Test Plan, Test Report and Plugin Guide.
 
+<div id='id-section2'/>
 ## How to use
 
 This repo is organized as the doc tree with 2 main folders:
@@ -21,6 +31,8 @@ To use these doc templates, follow these steps:
 
 3. Populate the content of RST files which make up the document structure.
 
+<div id='id-section3'/>
+
 ## How to build documentation
 
 Once you're done with editing the conf.py and sample RST files, you should cd into the corresponding doc dir and
@@ -34,10 +46,14 @@ make latexpdf
 
 The PDF will be found in /build subdir.
 
+<div id='id-section4'/>
+
 ## Check yourself
 
 Please use the checklists below to make sure you documentation
 meets the acceptance criteria.
+
+<div id='id-section5'/>
 
 ### Plugin Guide
 
