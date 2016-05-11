@@ -27,6 +27,8 @@ To use these doc templates, follow these steps:
    for the plugin compatible with 7.0, you'll need the 7.0:
 
    `git clone git@github.com:Mirantis/fuel-plugin-docs.git`
+   `cd fuel-plugin-docs`
+   `git checkout 7.0`
   
 2. Populate the placeholders of the conf.py files (for Plugin Guide, Test Plan and Report) with plugin-specific information (e.g. document name, plugin release).
 
