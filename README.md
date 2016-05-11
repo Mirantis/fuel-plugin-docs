@@ -2,8 +2,9 @@
 1. [Overview](#id-section1)
    * [How to use](#id-section2)
    * [How to build documentation] (#id-section3)
-2. [Check yourself](#id-section4)
-   * [Plugin Guide checklist](#id-section5)
+   * [Mirantis OpenStack&Fuel documentation](#id-section4)
+2. [Check yourself](#id-section5)
+   * [Plugin Guide checklist](#id-section6)
 
 <div id='id-section1'/>
 
@@ -16,6 +17,7 @@ which includes Test Plan, Test Report and Plugin Guide.
 For 8.0-compatible plugin, please use the 8.0 branch of this repo.**
 
 <div id='id-section2'/>
+
 ## How to use
 
 This repo is organized as the doc tree with 2 main folders:
@@ -26,11 +28,12 @@ This repo is organized as the doc tree with 2 main folders:
 
 To use these doc templates, follow these steps:
 
-1. Clone the repo and checkout the required branch;
-   for the plugin compatible with 7.0, you'll need the 7.0:
+1. Clone the repo and checkout the 7.0 branch:
 
    `git clone git@github.com:Mirantis/fuel-plugin-docs.git`
+   
    `cd fuel-plugin-docs`
+   
    `git checkout 7.0`
   
 2. Populate the placeholders of the conf.py files (for Plugin Guide, Test Plan and Report) with plugin-specific information (e.g. document name, plugin release).
@@ -54,12 +57,20 @@ The PDF will be found in /build subdir.
 
 <div id='id-section4'/>
 
+## Mirantis OpenStack&Fuel documentation
+
+When running test cases or creating Plugin Guide, you may want to refer to the official documentation.
+For Mirantis OpenStack 7.0, please use [this source] (https://docs.mirantis.com/openstack/fuel/fuel-7.0).
+Fuel documentation can be found on the same URL.
+
+<div id='id-section5'/>
+
 ## Check yourself
 
 Please use the checklists below to make sure you documentation
 meets the acceptance criteria.
 
-<div id='id-section5'/>
+<div id='id-section6'/>
 
 ### Plugin Guide
 
