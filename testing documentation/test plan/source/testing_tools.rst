@@ -1,9 +1,13 @@
+.. _testing-tools:
+
 Testing tools recommended by Mirantis
 =====================================
 
 Mirantis recommends that you use a series of testing tools to make sure your plugin meets both Mirantis and OpenStack Community testing standards.
 For your convenience, the list below also provides the specific categories of the plugin to apply these tools.
 Download URLs are listed in Appendix section;
+
+.. _ostf:
 
 OSTF
 ----
@@ -14,6 +18,7 @@ This means, OSTF is obligatory step in all test cases.
 
 Suitable for any plugin.
 
+.. _shaker:
 
 Shaker
 ------
@@ -21,6 +26,8 @@ Shaker
 Shaker is used to test network performance. It’s the distributed data-plane testing tool for OpenStack.
 
 Suitable for Networking/SDN plugins.
+
+.. _rally:
 
 Rally
 -----
@@ -30,6 +37,9 @@ Rally is a benchmarking tool developed by OpenStack community and is widely used
 
 Suitable for any plugin.
 
+
+.. _tempest:
+
 Tempest
 -------
 
@@ -38,11 +48,15 @@ It contains hundreds of tests.
 
 Suitable for any plugin.
 
+.. _fio:
+
 Fio
 ---
 
 Fio is used for disk performance measurement.
 Suitable for storage plugins.
+
+.. _wally:
 
 Wally
 -----
