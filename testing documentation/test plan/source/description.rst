@@ -1,14 +1,19 @@
+.. _overview:
+
 <plugin name> overview
 ======================
 
 *Provide common information about the plugin (what functionality it provides, what component it extends). You can also add schemes with a detailed explanation of plugin architecture.
 You can copy this information from the Plugin Guide or refer to the specific section of the Plugin Guide (the former is more preferable).*
 
+.. _spec:
 
 Developer’s specification (optional)
 ------------------------------------
 
 *Provide a link to developer’s specification (the specification itself should be formed according to the template and put into the plugin’s repo).*
+
+.. _limitations:
 
 Limitations
 -----------
