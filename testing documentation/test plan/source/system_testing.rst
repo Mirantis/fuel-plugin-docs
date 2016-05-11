@@ -213,14 +213,8 @@ Steps to reproduce:
      fuel-createmirror -M
      
 #.  Run the command below on the Fuel Master node:
-
-    * For MOS < 8.0::
     
        fuel --env <ENV_ID> node --node-id <NODE_ID1> <NODE_ID2> <NODE_ID_N> --tasks upload_core_repos
-       
-    * For MOS 8.0::
-    
-       fuel --env <ENV_ID> node --node-id <NODE_ID1> <NODE_ID2> <NODE_ID_N> --tasks setup_repositories
        
 #. Log into controller/compute/storage/etc nodes and check if plugin's services are alive and if their
    PID are changed.
