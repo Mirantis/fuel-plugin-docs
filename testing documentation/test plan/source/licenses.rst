@@ -1,3 +1,5 @@
+.. _licensing:
+
 Licenses
 ========
 
