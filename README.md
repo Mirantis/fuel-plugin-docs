@@ -23,7 +23,8 @@ This repo is organized as the doc tree with 2 main folders:
 
 To use these doc templates, follow these steps:
 
-1. Clone the repo:
+1. Clone the repo and checkout the required branch;
+   for the plugin compatible with 7.0, you'll need the 7.0:
 
    `git clone git@github.com:Mirantis/fuel-plugin-docs.git`
   
