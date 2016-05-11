@@ -53,6 +53,12 @@ The PDF will be found in /build subdir.
 
 <div id='id-section4'/>
 
+## Mirantis OpenStack&Fuel documentation
+
+When running test cases or creating Plugin Guide, you may want to refer to the official documentation.
+For Mirantis OpenStack 8.0, please use [this source] (https://docs.mirantis.com/openstack/fuel/fuel-8.0).
+For Fuel, please use [OpenStack Documentation] (http://docs.openstack.org/developer/fuel-docs/).
+
 ## Check yourself
 
 Please use the checklists below to make sure you documentation
