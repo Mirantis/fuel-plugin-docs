@@ -1,4 +1,6 @@
 
+.. _compatibility-matrix:
+
 Product compatibility matrix
 ----------------------------
 
