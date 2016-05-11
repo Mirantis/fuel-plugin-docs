@@ -26,12 +26,11 @@ This repo is organized as the doc tree with 2 main folders:
 
 To use these doc templates, follow these steps:
 
-1. Clone the repo and checkout the required branch;
-   for the plugin compatible with 7.0, you'll need the 7.0:
+1. Clone the repo and checkout the 8.0 branch:
 
    `git clone git@github.com:Mirantis/fuel-plugin-docs.git`
    `cd fuel-plugin-docs`
-   `git checkout 7.0`
+   `git checkout 8.0`
   
 2. Populate the placeholders of the conf.py files (for Plugin Guide, Test Plan and Report) with plugin-specific information (e.g. document name, plugin release).
 
