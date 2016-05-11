@@ -12,6 +12,9 @@
 If you are developing your own plugin for Fuel, you will also need to prepare the documentation set,
 which includes Test Plan, Test Report and Plugin Guide.
 
+**This branch (which is 7.0) serves to provide all relevant test cases for 7.0 Mirantis OpenStack.
+For 8.0-compatible plugin, please use the 8.0 branch of this repo.**
+
 <div id='id-section2'/>
 ## How to use
 
