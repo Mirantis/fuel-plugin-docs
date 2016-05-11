@@ -7,8 +7,6 @@
 Guide to the <PLUGIN NAME> plugin ver. <6-digit format>
 =======================================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 3
 
@@ -18,5 +16,6 @@ Contents:
    testing_tools
    functional_testing
    system_testing
+   other
    appendix
 
