@@ -1,3 +1,5 @@
+.. _system-test:
+
 System testing
 ==============
 
@@ -14,6 +16,8 @@ System testing
     `Multi-node with HA Deployment <https://docs.mirantis.com/openstack/fuel/fuel-7.0/reference-architecture.html#multi-node-ha>`_.
     
 .. note:: System testing includes OSTF as the tool recommended by Mirantis.
+
+.. _install_plugin_deploy_env:
 
 Install plugin and deploy environment
 -------------------------------------
@@ -49,6 +53,8 @@ Expected result:
 * OSTF tests (Health Checks) are passed.
 
 * Environment is deployed successfully.
+
+.. _modify_env_with_plugin_controller:
 
 Modifying env with enabled plugin (removing/adding controller nodes)
 --------------------------------------------------------------------
@@ -107,6 +113,8 @@ Expected result:
   * all plugins resources are migrated to another Controller node
   
   * the environment is redeployed successfully when adding/removing Controller node.
+  
+.. _modify_env_with_plugin_compute:
   
  Modifying environment with enabled plugin (removing/adding Compute node)
  ------------------------------------------------------------------------
@@ -167,6 +175,8 @@ Expected result:
   
   * the environment is redeployed successfully when adding/removing Compute node.
   
+  
+.. _fuel-create-mirror:
   
 Fuel create mirror and update (setup) of core repos
 ---------------------------------------------------
@@ -241,7 +251,7 @@ Expected result:
 
   * if they are restarted as some exception, this information should be added to plugin's User Guide. 
   
- #.Cluster (nodes) should remain in ready state.
+ #. Cluster (nodes) should remain in ready state.
  
  #. OSTF test should be passed on rerun.
 
