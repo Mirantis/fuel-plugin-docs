@@ -2,8 +2,9 @@
 1. [Overview](#id-section1)
    * [How to use](#id-section2)
    * [How to build documentation] (#id-section3)
-2. [Check yourself](#id-section4)
-   * [Plugin Guide checklist](#id-section5)
+   * [Mirantis OpenStack&Fuel documentation](#id-section4)
+2. [Check yourself](#id-section5)
+   * [Plugin Guide checklist](#id-section6)
 
 <div id='id-section1'/>
 
@@ -59,12 +60,14 @@ When running test cases or creating Plugin Guide, you may want to refer to the o
 For Mirantis OpenStack 8.0, please use [this source] (https://docs.mirantis.com/openstack/fuel/fuel-8.0).
 For Fuel, please use [OpenStack Documentation] (http://docs.openstack.org/developer/fuel-docs/).
 
+<div id='id-section5'/>
+
 ## Check yourself
 
 Please use the checklists below to make sure you documentation
 meets the acceptance criteria.
 
-<div id='id-section5'/>
+<div id='id-section6'/>
 
 ### Plugin Guide
 
