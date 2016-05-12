@@ -16,6 +16,7 @@ Guide to the <PLUGIN NAME> plugin ver. <6-digit format>
    testing_tools
    functional_testing
    system_testing
+   update-upgrade
    other
    appendix
 
