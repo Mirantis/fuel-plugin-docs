@@ -1,3 +1,5 @@
+.. _overview:
+
 Overview of the <plugin name> plugin
 ====================================
 
@@ -22,17 +24,12 @@ Fuel                    8.0
 <hardware>
 ======================= =================================
 
-Requirements
--------------
-
-To use the <plugin_name> plugin, you must have the following configured: 
-
 
 Limitations
 -----------
 
-The <plugin_name> plugin may not provide full functionality if you have one the following configured in your environment: 
+The <plugin_name> has some known issues/limitations of usage:
 
 * 
+
 * 
- 
