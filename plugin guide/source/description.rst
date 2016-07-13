@@ -19,7 +19,7 @@ To use the <plugin_name> plugin, verify that your environment meets the followin
 ======================= =================================
 Prerequisites           Version/Comment
 ======================= =================================
-Fuel                    8.0
+Fuel                    9.0
 <component 1>
 <hardware>
 ======================= =================================
