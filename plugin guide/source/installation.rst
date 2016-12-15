@@ -8,7 +8,7 @@ Before you install <plugin_name>, verify that your environment meets the require
 
 **To install <plugin name>:**
 
-#. Download <plugin_name> from the `Fuel Plugins Catalog`_.
+#. Download <plugin_name> from the corresponding `Partner page`_.
 
 #. Copy the plugin ``.rpm`` package to the Fuel Master node:
 
@@ -36,4 +36,4 @@ Before you install <plugin_name>, verify that your environment meets the require
 
 #. Proceed to :ref:`pg-configure`.
 
-.. _Fuel Plugins Catalog: https://www.mirantis.com/products/openstack-drivers-and-plugins/fuel-plugins/
+.. _Partner page: https://www.mirantis.com/partners/partner-community-catalog/
