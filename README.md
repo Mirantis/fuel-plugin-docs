@@ -7,7 +7,7 @@
 
 <div id='id-section1'/>
 
-# Overview
+# Get Overview
 
 If you are developing your own plugin for Fuel, you will also need to prepare the documentation set,
 which includes Test Plan, Test Report and Plugin Guide.
@@ -48,7 +48,7 @@ The PDF will be found in /build subdir.
 
 <div id='id-section4'/>
 
-## Check yourself
+## Check Getout once
 
 Please use the checklists below to make sure you documentation
 meets the acceptance criteria.
